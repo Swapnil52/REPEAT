@@ -1,6 +1,6 @@
 export CUDA_VISIBLE_DEVICES=0
 name=finetune
-pretrained_model=/microsoft/codebert-base
+pretrained_model=microsoft/codebert-base
 
 #train
 train_data_file=/POJ_clone/binary/train_0.jsonl
